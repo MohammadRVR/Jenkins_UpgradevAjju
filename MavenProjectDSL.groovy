@@ -11,6 +11,7 @@ job('First-Maven-Project-Via-DSL') {
     }
     publishers {
         //archive the war file generated
+	//just edited new line
         archiveArtifacts '**/*.jar'
     }
 }
